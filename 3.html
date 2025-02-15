@@ -1,0 +1,165 @@
+<!-- 3 Design for social media
+Project. Develop a web page in
+similar manner. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Social Media Analytics Dashboard</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+ <style>
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+ }
+ body {
+ background-color: #f8f9fa;
+ color: #333;
+ padding: 20px;
+ }
+ h1, h2 {
+ text-align: center;
+ margin-bottom: 20px;
+ }
+ .header {
+ background: #4267B2;
+ color: white;
+ text-align: center;
+ padding: 20px;
+ font-size: 1.5rem;
+ font-weight: bold;
+ }
+ .color-box {
+ display: inline-block;
+ width: 120px;
+ height: 120px;
+ margin: 10px;
+ border-radius: 8px;
+ text-align: center;
+ line-height: 120px;
+ font-weight: bold;
+ color: white;
+ }
+ .facebook { background: #4267B2; }
+ .twitter { background: #1DA1F2; }
+ .youtube { background: #FF0000; }
+ .instagram { background: #E1306C; }
+ .dashboard {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 20px;
+ }
+ .card {
+ width: 300px;
+ border-radius: 10px;
+ background: white;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ text-align: center;
+ padding: 15px;
+ }
+ .card-title {
+ font-weight: bold;
+ font-size: 1.2rem;
+ margin-top: 10px;
+ }
+ .card-metric {
+ font-size: 2rem;
+ font-weight: bold;
+ color: #4267B2;
+ }
+ .btn {
+ padding: 12px 24px;
+ border: none;
+ border-radius: 5px;
+ font-weight: bold;
+ cursor: pointer;
+ transition: 0.3s;
+ display: inline-block;
+ margin: 10px;
+ }
+ .btn-primary {
+ background: #4267B2;
+ color: white;
+ }
+ .btn-primary:hover {
+ background: #365899;
+ }
+ .btn-secondary {
+ background: #1DA1F2;
+ color: white;
+ }
+ .icon-samples {
+ text-align: center;
+ font-size: 30px;
+ margin-top: 20px;
+ }
+ .icon-samples i {
+ margin: 10px;
+ }
+ .footer {
+ margin-top: 40px;
+ background: #333;
+ color: white;
+ text-align: center;
+ padding: 20px;
+ }
+ </style>
+</head>
+<body>
+ <div class="header">
+ Social Media Analytics Dashboard
+ </div>
+ <h2>Brand Colors</h2>
+ <div style="text-align: center;">
+ <div class="color-box facebook">Facebook</div>
+ <div class="color-box twitter">Twitter</div>
+ <div class="color-box youtube">YouTube</div>
+ <div class="color-box instagram">Instagram</div>
+ </div>
+ <h2>Analytics Overview</h2>
+ <div class="dashboard">
+ <div class="card">
+ <i class="fab fa-facebook fa-3x" style="color:#4267B2;"></i>
+ <p class="card-title">Facebook Followers</p>
+ <p class="card-metric">25K</p>
+ </div>
+ <div class="card">
+ <i class="fab fa-twitter fa-3x" style="color:#1DA1F2;"></i>
+ <p class="card-title">Twitter Followers</p>
+ <p class="card-metric">18K</p>
+ </div>
+ <div class="card">
+ <i class="fab fa-youtube fa-3x" style="color:#FF0000;"></i>
+ <p class="card-title">YouTube Subscribers</p>
+ <p class="card-metric">50K</p>
+ </div>
+ <div class="card">
+ <i class="fab fa-instagram fa-3x" style="color:#E1306C;"></i>
+ <p class="card-title">Instagram Followers</p>
+ <p class="card-metric">30K</p>
+ </div>
+ </div>
+ <h2>Buttons</h2>
+ <div style="text-align: center;">
+ <button class="btn btn-primary">View Report</button>
+ <button class="btn btn-secondary">Download Data</button>
+ </div>
+ <h2>Icons</h2>
+ <div class="icon-samples">
+ <i class="fab fa-facebook fa-2x" style="color:#4267B2;"></i>
+ <i class="fab fa-twitter fa-2x" style="color:#1DA1F2;"></i>
+ <i class="fab fa-youtube fa-2x" style="color:#FF0000;"></i>
+ <i class="fab fa-instagram fa-2x" style="color:#E1306C;"></i>
+ </div>
+ <div class="footer">
+ &copy; 2025 Social Media Analytics | Designed by Abhijeet
+ </div>
+</body>
+</html>
